@@ -431,6 +431,7 @@ dialog::backdrop {
 
 .radial-gradient {
   background-image: radial-gradient(#feafe8, #c2e3e3);
+  mix-blend-mode: multiply
 }
 
 @media (width <= 375px) {

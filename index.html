@@ -387,7 +387,7 @@
         </button>
       </div>
       <dialog id="dialog-id">
-      
+        <form method="dialog">
         <div class="modal__message">
           <span class="floppy-1 floppy__modal">
             <svg viewBox="0 0 21 21">
@@ -409,16 +409,16 @@
           </h2>
         </div>
           
-          <button
+         <button
             class="modal__close"
             type="button"
             onclick="window['dialog-id'].close()"
           >
-          <form method="dialog">
+      
             <span class="modal__button-text">ок</span>
-          </form>
+         
         </button>
-        
+      </form> 
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
