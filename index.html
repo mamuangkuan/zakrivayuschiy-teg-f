@@ -340,7 +340,7 @@
         <p class="article__text">
           Сейчас вы уже очень много знаете о вёрстке. Но это только начало. Во-первых, впереди ещё много материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.<br />
           <br />
-          Дяденька или тетенька Ревьюер! Примите, пожалуйста, мою работу, а то уже лапы отваливаются. Знаете как маленькому песику тяжело печатать?
+          Дорогие Ревьюеры! Примите, пожалуйста, мою работу, а то уже лапы отваливаются. Три дня и три ночи программировал.
         </p>
 
         <div class="sharing">
@@ -371,9 +371,9 @@
           onclick="window['dialog-id'].showModal()"
           aria-controls="dialog-id"
         >
-          <div class="floppy-1">
+          <span class="floppy-1">
             <svg viewBox="0 0 21 21">
-            <use href="./svg/floppy.svg#floppy-1">
+            <use href="./svg/floppy.svg#floppy-1"></use>
               <style>
                 @media (prefers-color-scheme: dark) {
                 :root {
@@ -382,25 +382,25 @@
               }
           </style>
           </svg>
-          </div>
+        </span>
           <span class="button__text">Сохранить на память</span>
         </button>
       </div>
       <dialog id="dialog-id">
-        <form>
+      
         <div class="modal__message">
-          <div class="floppy-1 floppy__modal">
+          <span class="floppy-1 floppy__modal">
             <svg viewBox="0 0 21 21">
-              <use href="./svg/floppy.svg#floppy-1">
+              <use href="./svg/floppy.svg#floppy-1"></use>
                 <style>  
                   @media (prefers-color-scheme: dark) {
                   :root {
                       fill: #00CC14;                   
                   }
                 }  
-            </style>
+                </style>
             </svg>
-          </div>
+          </span>
 
           <h2 class="modal__title">
             Вставьте<br />
@@ -408,13 +408,14 @@
             продолжить
           </h2>
         </div>
-       
+          
           <button
             class="modal__close"
             type="button"
             onclick="window['dialog-id'].close()"
           >
-            <p class="modal__button-text">ок</p>
+          <form method="dialog">
+            <span class="modal__button-text">ок</span>
           </button>
         </form>
       </dialog>

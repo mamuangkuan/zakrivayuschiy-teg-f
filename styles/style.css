@@ -209,7 +209,7 @@
 
 .like-icon .main-body {
   fill: transparent;
-  transition: fill 0.3s linear 0.05s;
+  transition: fill 0.3s 0.05s linear ;
   cursor: pointer;
 }
 
@@ -225,7 +225,7 @@
 
 .like-icon .core {
   fill: transparent;
-  transition: fill 0.3s linear 0.03s;
+  transition: fill 0.3s 0.03s linear ;
   cursor: pointer;
 }
 
@@ -241,7 +241,7 @@
 
 .like-icon.is-liked .contour {
   fill: red;
-  transition: fill 0.3s linear 0.03s;
+  transition: fill 0.3s 0.06s linear ;
   cursor: pointer;
 }
 
@@ -257,11 +257,6 @@
   cursor: pointer;
 }
 
-.like-icon.is-liked .contour {
-  fill: red;
-  transition: fill 0.3s linear 0.06s;
-  cursor: pointer;
-}
 
 .like-icon.is-liked .heart {
   transform-origin: center;
