@@ -429,10 +429,39 @@ dialog::backdrop {
   background-color: var(--background-color);
 }
 
-.radial-gradient {
-  background-image: radial-gradient(#feafe8, #c2e3e3);
-  mix-blend-mode: multiply
+.grayscale-filter {
+  filter: grayscale(0.8);
 }
+
+.saturate-filter {
+  filter: saturate(50%);
+  
+}
+
+.hue-rotate-filter {
+  filter: hue-rotate(-90deg);
+  
+}
+
+.sepia-filter {
+  filter: sepia(80%);
+} 
+
+.invert-filter {
+  filter: invert(0.7);
+}
+
+.opacity-filter {
+  filter: opacity(0.8);
+}
+
+.blur-filter {
+  filter: blur(0.1rem);
+} 
+
+.contrast-sepia-filter {
+  filter: contrast(150%) sepia(80%);
+} 
 
 @media (width <= 375px) {
   .article {
