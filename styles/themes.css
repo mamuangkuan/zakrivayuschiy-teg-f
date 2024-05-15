@@ -4,3 +4,62 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --main-font: Inter-Variable;
+  --accent-font: PressStart2P-Regular;
+  --card-text-width: 465;
+  --card-title-width: 785;
+  --background-color: #000;
+  --accent-color: #00CC14;
+  --first-line-gradient: #000;
+  --second-line-gradient: #007f0c;
+  --third-line-gradient: #004306;
+  --outline-color: #00CC14;
+  --main-font-color: #00CC14;
+  --button-color: #00CC14;
+  --button-hover: #fff;
+  --contour-color: #00CC14;
+  --sparks-color: transparent;
+}
+
+
+
+:root.theme-light {
+  --main-font: Inter-Variable;
+  --accent-font: PressStart2P-Regular;
+  --card-text-width: 465;
+  --card-title-width: 785;
+  --background-color: #fff;
+  --accent-color: #000;
+  --first-line-gradient: #d3d3d3;
+  --second-line-gradient: #e7e7e7;
+  --third-line-gradient: #1a1a1a;
+  --outline-color: #000;
+  --main-font-color: #000;
+  --button-color: #fff;
+  --button-hover: #000;
+  --contour-color: #000;
+  --sparks-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font: Inter-Variable;
+    --accent-font: PressStart2P-Regular;
+    --card-text-width: 465;
+    --card-title-width: 785;
+    --background-color: #000;
+    --accent-color: #00CC14;
+    --first-line-gradient: #000;
+    --second-line-gradient: #007f0c;
+    --third-line-gradient: #004306;
+    --outline-color: #00CC14;
+    --main-font-color: #00CC14;
+    --button-color: #00CC14;
+    --button-hover: #fff;
+    --contour-color: #00CC14;
+    --sparks-color: transparent;
+  }
+}
+
