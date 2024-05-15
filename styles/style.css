@@ -429,6 +429,10 @@ dialog::backdrop {
   background-color: var(--background-color);
 }
 
+.radial-gradient {
+  background-image: radial-gradient(#feafe8, #c2e3e3);
+}
+
 @media (width <= 375px) {
   .article {
     width: 100%;
