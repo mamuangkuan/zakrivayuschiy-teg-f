@@ -181,7 +181,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-padding: 25px;
+  padding: 25px;
   color: var(--accent-color);
   line-height: 1.2;
 }
@@ -201,7 +201,6 @@ padding: 25px;
   align-items: center;
   margin-right: 29px;
   margin-bottom: 25px;
- 
 }
 
 .card__icon-button {
@@ -425,17 +424,14 @@ dialog::backdrop {
 }
 
 @media (width <= 375px) {
-
   .header {
     width: 100%;
     min-height: 327px;
     margin-top: 113px;
-    margin-bottom: 101px; 
+    margin-bottom: 101px;
     padding-top: 120px;
     padding-bottom: 25px;
-
   }
-
 
   .header__title {
     font-size: 14px;
@@ -443,14 +439,11 @@ dialog::backdrop {
 
   .header__title-logo {
     font-size: 49px;
-
-    
   }
 
   .article {
     width: 100%;
   }
-
 
   .save-button {
     flex-direction: column;
@@ -466,7 +459,4 @@ dialog::backdrop {
     width: 28px;
     height: 28px;
   }
-
-
-
 }
