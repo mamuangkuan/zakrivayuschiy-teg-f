@@ -6,30 +6,29 @@
 */
 
 :root.theme-dark {
-  --main-font: Inter-Variable;
-  --accent-font: PressStart2P-Regular;
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --card-text-width: 465;
   --card-title-width: 785;
   --background-color: #000;
-  --accent-color: #00CC14;
+  --accent-color: #00cc14;
   --first-line-gradient: #000;
   --second-line-gradient: #007f0c;
   --third-line-gradient: #004306;
-  --outline-color: #00CC14;
-  --main-font-color: #00CC14;
-  --button-color: #00CC14;
+  --outline-color: #00cc14;
+  --main-font-color: #00cc14;
+  --button-color: #00cc14;
   --button-hover: #fff;
-  --contour-color: #00CC14;
+  --contour-color: #00cc14;
   --sparks-color: transparent;
+  --heart-color: #FF0000;
 }
 
-
-
 :root.theme-light {
-  --main-font: Inter-Variable;
-  --accent-font: PressStart2P-Regular;
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", fantasy;
   --card-text-width: 400;
-  --card-title-width: 785;
+  --card-title-width: 700;
   --background-color: #fff;
   --accent-color: #000;
   --first-line-gradient: #d3d3d3;
@@ -41,25 +40,32 @@
   --button-hover: #000;
   --contour-color: #000;
   --sparks-color: transparent;
+  --heart-color: #FF0000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font: Inter-Variable;
-    --accent-font: PressStart2P-Regular;
+    --main-font: "Inter", sans-serif;
+    --accent-font: "PressStart2P", fantasy;
     --card-text-width: 465;
     --card-title-width: 785;
     --background-color: #000;
-    --accent-color: #00CC14;
+    --accent-color: #00cc14;
     --first-line-gradient: #000;
     --second-line-gradient: #007f0c;
     --third-line-gradient: #004306;
-    --outline-color: #00CC14;
-    --main-font-color: #00CC14;
-    --button-color: #00CC14;
+    --outline-color: #00cc14;
+    --main-font-color: #00cc14;
+    --button-color: #00cc14;
     --button-hover: #fff;
-    --contour-color: #00CC14;
+    --contour-color: #00cc14;
     --sparks-color: transparent;
-   
+    --heart-color: #FF0000;
+  }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root.floppy-icon {
+    fill: #00cc14;
+  }
 }

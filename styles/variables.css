@@ -1,10 +1,8 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-
 :root {
- --main-font: Inter-Variable;
- --accent-font: PressStart2P-Regular;
+ --main-font: "Inter", sans-serif;
+ --accent-font: "PressStart2P", fantasy;
  --card-text-width: 400;
- --card-title-width: 785;
+ --card-title-width: 700;
  --background-color: #fff;
  --accent-color: #000;
  --first-line-gradient: #d3d3d3;
@@ -16,4 +14,7 @@
  --button-hover: #000;
  --contour-color: #000;
  --sparks-color: transparent;
+ --heart-color: #FF0000;
 }
+
+/* Обращаю внимание, что по умолчанию прописаны свойства СВЕТЛОЙ темы. Как и было изначально. */
