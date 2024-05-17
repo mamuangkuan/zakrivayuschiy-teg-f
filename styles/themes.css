@@ -56,9 +56,3 @@
     --heart-color: #ff0000;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root.floppy-icon {
-    fill: #00cc14;
-  }
-}

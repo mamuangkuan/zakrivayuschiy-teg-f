@@ -18,7 +18,9 @@
   </head>
   <body class="page">
     <header class="header">
-      <a href="#" class="header__title-logo" aria-hidden="true"> &lt;/HTML&gt; </a>
+      <a href="#" class="header__title-logo" aria-hidden="true">
+        &lt;/HTML&gt;
+      </a>
       <h1 class="header__title">закрывающий тег</h1>
 
       <nav class="theme-menu header__theme-menu">
@@ -589,21 +591,18 @@
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
       >
-        <span class="floppy-icon">
-          <svg viewBox="0 0 21 21">
-            <use href="./svg/floppy.svg#floppy-icon"></use>
-          </svg>
-        </span>
+        <svg class="floppy-icon" viewBox="0 0 39 39">
+          <use href="./svg/floppy.svg#floppy-icon"></use>
+        </svg>
+
         <span class="button__text">Сохранить на память</span>
       </button>
 
       <dialog id="dialog-id">
         <div class="modal__message">
-          <span class="floppy-icon floppy__modal">
-            <svg viewBox="0 0 21 21">
-              <use href="./svg/floppy.svg#floppy-icon"></use>
-            </svg>
-          </span>
+          <svg class="floppy__modal" viewBox="0 0 39 39">
+            <use href="./svg/floppy.svg#floppy-icon"></use>
+          </svg>
 
           <h2 class="modal__title">Вставьте дискету, чтобы продолжить</h2>
         </div>
@@ -614,7 +613,7 @@
             type="button"
             onclick="window['dialog-id'].close()"
           >
-            <span class="button__text">ОК</span>
+            <span class="button__text modal__button">ок</span>
           </button>
         </form>
       </dialog>
